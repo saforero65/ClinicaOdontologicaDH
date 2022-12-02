@@ -11,7 +11,7 @@ import java.util.List;
 public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-    private final static String DB_URL = "jdbc:h2:tcp://localhost/~/prueba";
+    private final static String DB_URL = "jdbc:h2:tcp://localhost/~/Clinica_Odontologica_test";
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "";
 
@@ -89,10 +89,13 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     public Odontologo buscar(Long id) throws SQLException {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
+        System.out.println("entro a buscar ");
         try{
             //1 Levantar el driver y Conectarnos a la base de datos
+            System.out.println("ANTES DE CONECTAR a la base de datos");
             connection = getConnection();
             LOGGER.info("Conectado a la base de datos");
+            System.out.println("Conectado a la base de datos");
             Statement statement = connection.createStatement();
             statement.execute(SQL_CREATE_TABLE);
             //2 Crear el statement
@@ -114,6 +117,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             preparedStatement.close();
         }catch (Exception e){
             LOGGER.error("Error al buscar el odontologo");
+            System.out.println("error al entrar a buscar");
         }finally {
             connection.close();
         }

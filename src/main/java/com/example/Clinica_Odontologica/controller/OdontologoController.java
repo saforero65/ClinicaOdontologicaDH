@@ -4,10 +4,7 @@ import com.example.Clinica_Odontologica.dao.impl.OdontologoDaoH2;
 import com.example.Clinica_Odontologica.model.Odontologo;
 import com.example.Clinica_Odontologica.services.OdontologoService;
 import com.example.Clinica_Odontologica.services.impl.OdontologoServiceImpl;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.SQLException;
 
@@ -21,8 +18,12 @@ public class OdontologoController {
         return "Hola";
     }
     @GetMapping("/buscar/{id}")
-        public Odontologo buscarOdotologo(@PathVariable("id") Long id ) throws SQLException {
+        public Odontologo buscarOdotologo(@PathVariable("id") Long id ) {
         Odontologo odontologo = odontologoService.obtenerOdontologo(id);
     return odontologo;
+    }
+    @PostMapping("/guardar")
+    public void guardarOdontologo(@RequestBody Odontologo odontologo)  {
+        odontologoService.guardarOdontologo(odontologo);
     }
 }

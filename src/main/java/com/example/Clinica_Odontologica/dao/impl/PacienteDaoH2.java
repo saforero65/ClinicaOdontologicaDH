@@ -35,7 +35,7 @@ public class PacienteDaoH2 implements IDao<Paciente> {
     }
 
     @Override
-    public Paciente guardar(Paciente paciente) throws SQLException {
+    public Paciente guardar(Paciente paciente) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
@@ -61,13 +61,19 @@ public class PacienteDaoH2 implements IDao<Paciente> {
         } catch (Exception e) {
             LOGGER.error("Error al guardar el paciente");
         } finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return paciente;
     }
 
     @Override
-    public void eliminar(Long id) throws SQLException {
+    public void eliminar(Long id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
@@ -87,12 +93,18 @@ public class PacienteDaoH2 implements IDao<Paciente> {
         } catch (Exception e) {
             LOGGER.error("Error al eliminar el paciente");
         } finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
     }
 
     @Override
-    public Paciente buscar(Long id) throws SQLException {
+    public Paciente buscar(Long id) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
 
@@ -127,14 +139,20 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             preparedStatement.close();
         } catch (Exception e) {
             LOGGER.error("Error al buscar el paciente");
-        } finally {
-            connection.close();
+        }finally {
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return null;
     }
 
     @Override
-    public List<Paciente> buscarTodos() throws SQLException {
+    public List<Paciente> buscarTodos() {
 
         Connection connection = null;
         PreparedStatement preparedStatement = null;
@@ -165,8 +183,14 @@ public class PacienteDaoH2 implements IDao<Paciente> {
             preparedStatement.close();
         } catch (Exception e) {
             LOGGER.error("Error al buscar todos los pacientes");
-        } finally {
-            connection.close();
+        }finally {
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return pacientes;
     }

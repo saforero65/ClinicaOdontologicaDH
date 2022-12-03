@@ -32,7 +32,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     }
 
     @Override
-    public Odontologo guardar(Odontologo odontologo) throws SQLException {
+    public Odontologo guardar(Odontologo odontologo) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try{
@@ -54,13 +54,19 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         }catch (Exception e){
             LOGGER.error("Error al guardar el odontologo: " + e.getMessage());
         }finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return odontologo;
     }
 
     @Override
-    public void eliminar(Long id) throws SQLException {
+    public void eliminar(Long id)  {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try{
@@ -80,13 +86,19 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         }catch (Exception e){
             LOGGER.error("Error al eliminar el odontologo");
         }finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
 
     }
 
     @Override
-    public Odontologo buscar(Long id) throws SQLException {
+    public Odontologo buscar(Long id)  {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         System.out.println("entro a buscar ");
@@ -119,13 +131,19 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             LOGGER.error("Error al buscar el odontologo");
             System.out.println("error al entrar a buscar");
         }finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return null;
     }
 
     @Override
-    public List<Odontologo> buscarTodos() throws SQLException {
+    public List<Odontologo> buscarTodos()  {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         List<Odontologo> odontologos = new ArrayList<>();
@@ -154,7 +172,13 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         }catch (Exception e){
             LOGGER.error("Error al buscar todos los odontologos");
         }finally {
-            connection.close();
+            try {
+                if (connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                LOGGER.error("Error al cerrar la conexion");
+            }
         }
         return odontologos;
     }

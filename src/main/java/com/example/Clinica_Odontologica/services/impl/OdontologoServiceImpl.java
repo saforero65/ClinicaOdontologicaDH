@@ -17,7 +17,12 @@ public class OdontologoServiceImpl implements OdontologoService {
         this.odontologoDao = odontologoDao;
     }
     @Override
-    public Odontologo obtenerOdontologo(Long id) throws SQLException {
+    public Odontologo obtenerOdontologo(Long id) {
         return odontologoDao.buscar(id);
+    }
+
+    @Override
+    public Odontologo guardarOdontologo(Odontologo odontologo) {
+        return odontologoDao.guardar(odontologo);
     }
 }

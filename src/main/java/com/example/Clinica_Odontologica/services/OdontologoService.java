@@ -5,5 +5,6 @@ import com.example.Clinica_Odontologica.model.Odontologo;
 import java.sql.SQLException;
 
 public interface OdontologoService {
-    Odontologo obtenerOdontologo(Long id) throws SQLException;
+    Odontologo obtenerOdontologo(Long id);
+    Odontologo guardarOdontologo(Odontologo odontologo) ;
 }

@@ -1,26 +1,32 @@
 package com.example.Clinica_Odontologica.model;
 
+
+
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Paciente {
+
+
+
+public class Paciente implements Serializable {
     private Long id;
     private String nombre;
     private String apellido;
     private int dni;
-    private String domicilio;
+    private Domicilio domicilio;
     private LocalDate fechaAlta;
 
     public Paciente(){
 
     }
-    public Paciente(String nombre, String apellido, int dni, String domicilio,LocalDate fechaAlta) {
+    public Paciente(String nombre, String apellido, int dni, Domicilio domicilio,LocalDate fechaAlta) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
         this.domicilio = domicilio;
         this.fechaAlta = fechaAlta;
     }
-    public Paciente(Long id,String nombre, String apellido, int dni, String domicilio,LocalDate fechaAlta) {
+    public Paciente(Long id,String nombre, String apellido, int dni, Domicilio domicilio,LocalDate fechaAlta) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
@@ -60,11 +66,11 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public String getDomicilio() {
+    public Domicilio getDomicilio() {
         return domicilio;
     }
 
-    public void setDomicilio(String domicilio) {
+    public void setDomicilio(Domicilio domicilio) {
         this.domicilio = domicilio;
     }
 

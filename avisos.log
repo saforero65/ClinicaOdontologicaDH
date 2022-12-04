@@ -63,3 +63,27 @@
 [2022-12-02 23:04:24] [ INFO ] [PacienteDaoH2:137] Query prep6: SELECT * FROM paciente WHERE id = ? {1: CAST(3 AS BIGINT)}
 [2022-12-02 23:04:24] [ INFO ] [DomicilioDaoH2:118] Conectado a la base de datos
 [2022-12-02 23:04:24] [ INFO ] [PacienteDaoH2:158] Se encontro el paciente: Valeria Forero
+[2022-12-03 09:27:31] [ INFO ] [PacienteDaoH2:131] Conectado a la base de datos
+[2022-12-03 09:27:31] [ INFO ] [PacienteDaoH2:137] Query prep0: SELECT * FROM paciente WHERE id = ? {1: CAST(3 AS BIGINT)}
+[2022-12-03 09:27:31] [ INFO ] [DomicilioDaoH2:118] Conectado a la base de datos
+[2022-12-03 09:27:31] [ INFO ] [PacienteDaoH2:158] Se encontro el paciente: Valeria Forero
+[2022-12-03 11:52:58] [ INFO ] [OdontologoDaoH2:109] Conectado a la base de datos
+[2022-12-03 11:52:58] [ INFO ] [OdontologoDaoH2:128] Se busco el odontologo con id: 1
+[2022-12-03 11:56:15] [ INFO ] [OdontologoDaoH2:41] Conectado a la base de datos
+[2022-12-03 11:56:15] [ INFO ] [OdontologoDaoH2:52] Se guardo el odontologo: sebastian forero
+[2022-12-03 11:57:04] [ INFO ] [OdontologoDaoH2:41] Conectado a la base de datos
+[2022-12-03 11:57:04] [ INFO ] [OdontologoDaoH2:58] Se guardo el odontologo: Ale nose
+[2022-12-03 11:57:15] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 11:57:23] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 12:00:51] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 12:02:35] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 12:04:24] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 12:06:10] [ INFO ] [OdontologoDaoH2:115] Conectado a la base de datos
+[2022-12-03 12:24:35] [ INFO ] [OdontologoDaoH2:116] Conectado a la base de datos
+[2022-12-03 12:25:10] [ INFO ] [OdontologoDaoH2:116] Conectado a la base de datos
+[2022-12-03 13:01:56] [ INFO ] [PacienteDaoH2:132] Conectado a la base de datos
+[2022-12-03 13:01:56] [ INFO ] [PacienteDaoH2:138] Query prep1: SELECT * FROM paciente WHERE id = ? {1: CAST(3 AS BIGINT)}
+[2022-12-03 13:01:56] [ ERROR] [PacienteDaoH2:166] Error al buscar el paciente
+[2022-12-03 13:02:08] [ INFO ] [PacienteDaoH2:132] Conectado a la base de datos
+[2022-12-03 13:02:08] [ INFO ] [PacienteDaoH2:138] Query prep2: SELECT * FROM paciente WHERE id = ? {1: CAST(1 AS BIGINT)}
+[2022-12-03 13:02:08] [ ERROR] [PacienteDaoH2:166] Error al buscar el paciente

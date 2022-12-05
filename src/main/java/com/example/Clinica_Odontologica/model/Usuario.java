@@ -1,69 +1,70 @@
 package com.example.Clinica_Odontologica.model;
 
-public class Usuario {
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import javax.persistence.*;
+import java.util.Collection;
+import java.util.Collections;
+
+@Entity
+@Table(name = "usuario")
+@Getter
+@Setter
+public class Usuario implements UserDetails {
+    @Id
+    @SequenceGenerator(name = "usuario_sequence", sequenceName = "usuario_sequence", allocationSize = 1)
+    @GeneratedValue(generator = "usuario_sequence", strategy = GenerationType.SEQUENCE)
     private Long id;
     private String nombre;
     private String apellido;
     private String email;
     private String password;
-    private String rol;
+    @Enumerated(EnumType.STRING)
+    private AppUserRoles role;
 
-    public Usuario(){
-
+    public Usuario() {
     }
-
-    public Usuario(Long id,String nombre, String apellido, String email, String password, String rol) {
-        this.id = id;
+    public Usuario( String nombre, String apellido, String email, String password, AppUserRoles role) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.password = password;
-        this.rol = rol;
+        this.role = role;
     }
 
-    public Long getId() {
-        return id;
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        SimpleGrantedAuthority authority = new SimpleGrantedAuthority(role.name());
+        return Collections.singletonList(authority);
     }
-    public void setId(Long id) {
-        this.id = id;
-    }
-    public String getNombre() {
+
+    @Override
+    public String getUsername() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
     }
 
-    public String getApellido() {
-        return apellido;
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getRol() {
-        return rol;
-    }
-
-    public void setRol(String rol) {
-        this.rol = rol;
+    @Override
+    public boolean isEnabled() {
+        return true;
     }
 }

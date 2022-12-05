@@ -2,6 +2,7 @@ package com.example.Clinica_Odontologica.controller;
 
 
 import com.example.Clinica_Odontologica.dto.OdontologoDto;
+import com.example.Clinica_Odontologica.exception.ResourceNotFoundException;
 import com.example.Clinica_Odontologica.model.Odontologo;
 import com.example.Clinica_Odontologica.services.OdontologoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -23,15 +24,18 @@ public class OdontologoController {
     //private final OdontologoService odontologoService= new OdontologoServiceImpl( new OdontologoDaoH2());
 
     @GetMapping("/buscar/{id}")
-    public ResponseEntity<OdontologoDto> buscarOdotologo(@PathVariable("id") Long id ) {
+    public ResponseEntity<OdontologoDto> buscarOdotologo(@PathVariable("id") Long id ) throws ResourceNotFoundException {
         Odontologo odontologo = odontologoService.buscarOdontologo(id);
         OdontologoDto odontologoDto = new OdontologoDto(odontologo.getId(), odontologo.getNombre(), odontologo.getApellido());
         return ResponseEntity.ok(odontologoDto);
-
     }
     @PostMapping("/guardar")
-    public Odontologo guardarOdontologo(@RequestBody Odontologo odontologo)  {
+    public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo){
         odontologoService.crearOdontologo(odontologo);
-        return odontologo;
+        return ResponseEntity.ok(odontologo);
     }
+
+
+
+
 }

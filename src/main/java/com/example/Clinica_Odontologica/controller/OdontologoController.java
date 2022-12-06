@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/odontologo")
+@CrossOrigin(origins = "*")
 public class OdontologoController {
     private final OdontologoService odontologoService;
     private final ObjectMapper mapper = new ObjectMapper();
@@ -20,9 +21,6 @@ public class OdontologoController {
     public OdontologoController(OdontologoService odontologoService) {
         this.odontologoService = odontologoService;
     }
-
-    //private final OdontologoService odontologoService= new OdontologoServiceImpl( new OdontologoDaoH2());
-
     @GetMapping("/buscar/{id}")
     public ResponseEntity<OdontologoDto> buscarOdotologo(@PathVariable("id") Long id ) throws ResourceNotFoundException {
         Odontologo odontologo = odontologoService.buscarOdontologo(id);
@@ -31,6 +29,7 @@ public class OdontologoController {
     }
     @PostMapping("/guardar")
     public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo){
+
         odontologoService.crearOdontologo(odontologo);
         return ResponseEntity.ok(odontologo);
     }

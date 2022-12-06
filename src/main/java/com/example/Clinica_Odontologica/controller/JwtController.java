@@ -3,6 +3,7 @@ package com.example.Clinica_Odontologica.controller;
 import com.example.Clinica_Odontologica.jwt.AuthenticationRequest;
 import com.example.Clinica_Odontologica.jwt.AuthenticationResponse;
 import com.example.Clinica_Odontologica.jwt.JwtUtil;
+import com.example.Clinica_Odontologica.model.ResponseJson;
 import com.example.Clinica_Odontologica.model.Usuario;
 import com.example.Clinica_Odontologica.services.impl.OdontologoServiceImpl;
 import com.example.Clinica_Odontologica.services.impl.UserService;
@@ -13,11 +14,13 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class JwtController {
     @Autowired
     private AuthenticationManager authenticationManager;
@@ -42,8 +45,9 @@ public class JwtController {
 
         }catch (BadCredentialsException e ) {
             LOGGER.error("Error en el login: " + e);
+            ResponseJson responseJson = new ResponseJson("Usuario o contraseña incorrectos");
 
-            return ResponseEntity.badRequest().body("Usuario o contraseña incorrectos");
+            return ResponseEntity.status(404).body(responseJson);
         }
 
         final UserDetails userDetails = userService.loadUserByUsername(usuario.getEmail());

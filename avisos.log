@@ -452,3 +452,776 @@
 [2022-12-05 12:09:03] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@abadf36
 [2022-12-05 12:09:03] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
 [2022-12-05 12:09:03] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 17:52:51] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:15:13] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:18:30] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:21:09] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:22:28] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:25:56] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:39:37] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:49:55] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:52:26] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:54:12] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 18:59:45] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:01:29] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:02:46] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:09:15] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:11:18] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:12:22] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:13:46] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:14:42] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:17:45] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:58:34] [ INFO ] [OdontologoServiceImpl:35] Iniciando autenticación
+[2022-12-05 19:58:34] [ INFO ] [OdontologoServiceImpl:36] Usuario: email@email.com
+[2022-12-05 19:58:34] [ INFO ] [OdontologoServiceImpl:37] Contraseña: 1234
+[2022-12-05 19:58:34] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 19:59:02] [ INFO ] [OdontologoServiceImpl:35] Iniciando autenticación
+[2022-12-05 19:59:02] [ INFO ] [OdontologoServiceImpl:36] Usuario: email@email.com
+[2022-12-05 19:59:02] [ INFO ] [OdontologoServiceImpl:37] Contraseña: 1234
+[2022-12-05 19:59:02] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 19:59:22] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 19:59:27] [ INFO ] [OdontologoServiceImpl:35] Iniciando autenticación
+[2022-12-05 19:59:27] [ INFO ] [OdontologoServiceImpl:36] Usuario: email@email.com
+[2022-12-05 19:59:27] [ INFO ] [OdontologoServiceImpl:37] Contraseña: 1234
+[2022-12-05 19:59:27] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 19:59:27] [ ERROR] [OdontologoServiceImpl:44] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:35] Iniciando autenticación
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:36] Usuario: email@email.com
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:37] Contraseña: 1234
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4753294d
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4753294d
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 19:59:42] [ INFO ] [OdontologoServiceImpl:51] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyODg0NDMsImlhdCI6MTY3MDI4ODM4Mn0.ZzUmpw4w8AjEyFpvmwXVBYDhVesiQmCLWTX914Z_drQ
+[2022-12-05 20:13:13] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:13:37] [ INFO ] [OdontologoServiceImpl:37] Iniciando autenticación
+[2022-12-05 20:13:37] [ INFO ] [OdontologoServiceImpl:38] Usuario: saforero88@gmail.com
+[2022-12-05 20:13:37] [ INFO ] [OdontologoServiceImpl:39] Contraseña: 1234
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@17b67682
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@17b67682
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:13:38] [ INFO ] [OdontologoServiceImpl:53] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI4OTI3OCwiaWF0IjoxNjcwMjg5MjE4fQ.5nmblZw-ATuA4bc87AmtuSHkCTOco5gobs4WPImnVYw
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:37] Iniciando autenticación
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:38] Usuario: saforero88@gmail.com
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:39] Contraseña: 12345
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@483d33d4
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:13:43] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:13:43] [ ERROR] [OdontologoServiceImpl:46] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:14:26] [ INFO ] [OdontologoServiceImpl:37] Iniciando autenticación
+[2022-12-05 20:14:26] [ INFO ] [OdontologoServiceImpl:38] Usuario: email@email.com
+[2022-12-05 20:14:26] [ INFO ] [OdontologoServiceImpl:39] Contraseña: 12324
+[2022-12-05 20:14:26] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:14:26] [ ERROR] [OdontologoServiceImpl:46] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:14:31] [ INFO ] [OdontologoServiceImpl:37] Iniciando autenticación
+[2022-12-05 20:14:31] [ INFO ] [OdontologoServiceImpl:38] Usuario: email@email.com
+[2022-12-05 20:14:31] [ INFO ] [OdontologoServiceImpl:39] Contraseña: 1234
+[2022-12-05 20:14:31] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:14:31] [ ERROR] [OdontologoServiceImpl:46] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:14:38] [ INFO ] [OdontologoServiceImpl:37] Iniciando autenticación
+[2022-12-05 20:14:38] [ INFO ] [OdontologoServiceImpl:38] Usuario: safsorero88@gmail.com
+[2022-12-05 20:14:38] [ INFO ] [OdontologoServiceImpl:39] Contraseña: 12345
+[2022-12-05 20:14:38] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:14:38] [ ERROR] [OdontologoServiceImpl:46] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:15:55] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:16:09] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:16:09] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:16:09] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:16:09] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:16:09] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:16:11] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:16:11] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:16:11] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:16:11] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:16:11] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:16:12] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:16:12] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:16:12] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:16:12] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:16:12] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:16:13] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:16:13] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:16:13] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:16:13] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:16:13] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:16:19] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:16:19] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:16:19] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:16:19] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:16:19] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:18:14] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:18:32] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:18:32] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:18:32] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:18:32] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:18:32] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:18:48] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:18:48] [ INFO ] [OdontologoServiceImpl:39] Usuario: safsorero88@gmail.com
+[2022-12-05 20:18:48] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 12345
+[2022-12-05 20:18:48] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:18:48] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@bf8fd6f
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@bf8fd6f
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:19:50] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI4OTY1MSwiaWF0IjoxNjcwMjg5NTkwfQ.8bRiLwmJpVQs0URO_1ZKQCWr1tS72ZcvLQmnYvaEH4s
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@492946b6
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@492946b6
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:25:02] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI4OTk2MiwiaWF0IjoxNjcwMjg5OTAyfQ.wJXiVWQ9-J_-dUCWKzkXs5XIm7llWy7n5BrX8OWREKE
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@b6e5d95
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@b6e5d95
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:25:41] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDAwMiwiaWF0IjoxNjcwMjg5OTQxfQ.t9hOxIjxOb-Fbz-6j-pSP-zd2VTEMM8lddAloBLzRW4
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@674e1158
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@674e1158
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:26:09] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDAzMCwiaWF0IjoxNjcwMjg5OTY5fQ.DowgOPBN7ga0G_XgT_4tauUdjbODyaz06VF6ztl6GI0
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@13d8bb8f
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@13d8bb8f
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:26:56] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDA3NywiaWF0IjoxNjcwMjkwMDE2fQ.asZxCKgqp33umxyHajwlR5CEaSC46YOkhTSftI0t2vg
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4f8404d7
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4f8404d7
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:07] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDA4NywiaWF0IjoxNjcwMjkwMDI3fQ.klKFulxzk6oblC_vHM-kxBj4ZrJ6G4_dNwhooASi43g
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@39a964cd
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@39a964cd
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:08] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDA4OCwiaWF0IjoxNjcwMjkwMDI4fQ.xfplZRmCF0h310gxr7QrvyyY17UBBiprUAKUwY8atVM
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@46f52bc
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@46f52bc
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:10] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDA5MCwiaWF0IjoxNjcwMjkwMDMwfQ.-I66QyvI2dexaPfOh5a6QaZxWc_5XE_ey4Efpnz6OMY
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@45ceda9d
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@45ceda9d
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:27:32] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDExMywiaWF0IjoxNjcwMjkwMDUyfQ.2p1DZUzKrfQV8zGLO7J0aQdENa5w9ILnD0mtiAwlglo
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@15f235ef
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@15f235ef
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:28:23] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDE2MywiaWF0IjoxNjcwMjkwMTAzfQ.Ojzt04SheX-DmFHPZPPBQToSi9VxXa6TMte4oIcENVw
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6a795abb
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6a795abb
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:28:54] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDE5NSwiaWF0IjoxNjcwMjkwMTM0fQ.w8sDSWddBgMFYPzG4tZWTxvEk7S-eekbO3HOfJGm0H8
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@475efae2
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@475efae2
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:29:34] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MDIzNCwiaWF0IjoxNjcwMjkwMTc0fQ.ZDY-_xI9_tGc1uj75vzPtLtRpCfOfXXYumkXIYPF4Io
+[2022-12-05 20:39:06] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:45:01] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:45:28] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:45:28] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:45:28] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:45:28] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:45:28] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:46:16] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:46:41] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:46:41] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:46:41] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:46:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:46:41] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:47:31] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:47:31] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:47:31] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:47:31] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:47:31] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:39] Usuario: saforero88@gmail.com
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@14186bd5
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@14186bd5
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:47:51] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWZvcmVybzg4QGdtYWlsLmNvbSIsImV4cCI6MTY3MDI5MjE3MSwiaWF0IjoxNjcwMjkxMjcxfQ.ZOeIvIuUSyluKK8xlcVBCfLq-uzDA_NqWEM8nbWTGs8
+[2022-12-05 20:48:45] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:48:45] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: saforero88@gmail.com
+[2022-12-05 20:48:45] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4de87262
+[2022-12-05 20:48:45] [ INFO ] [OdontologoServiceImpl:32] Usuario: saforero88@gmail.com
+[2022-12-05 20:48:45] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:50:03] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6366a974
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6366a974
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:50:24] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTIzMjQsImlhdCI6MTY3MDI5MTQyNH0.c6-QjAuJaXrEOnEzTDzsCwI4GLZ0wyFJiYJvW9TF8Yk
+[2022-12-05 20:52:00] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:52:24] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:52:24] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 20:52:24] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:52:24] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@603b09b2
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@603b09b2
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:52:25] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTI0NDUsImlhdCI6MTY3MDI5MTU0NX0.Yr8ZwVaWiPlYO-vWxh5R3QGG_lHP_xQ-iDuNvz3Nhyw
+[2022-12-05 20:55:39] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2d0d7d6a
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2d0d7d6a
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 20:55:43] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTI2NDMsImlhdCI6MTY3MDI5MTc0M30.cJjRwaevslztdBdoIBUyFD7BN4YLwMnmfLO6HxvxavM
+[2022-12-05 20:56:18] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:56:37] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 20:56:37] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 20:56:37] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2dc48eca
+[2022-12-05 20:56:37] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 20:56:37] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:01:22] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:01:22] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:01:22] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@188b38be
+[2022-12-05 21:01:22] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:01:22] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:02:31] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@362ad01f
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@362ad01f
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:02:43] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:02:44] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTMwNjMsImlhdCI6MTY3MDI5MjE2M30.NCI1lKQlYrvBPrjwrs_bwfv4Nfgl6se_MJkzXJlVwI0
+[2022-12-05 21:03:57] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3e9d8dd5
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3e9d8dd5
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:04:03] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTMxNDMsImlhdCI6MTY3MDI5MjI0M30.faiClxaJ0_EBUyi5lQKQy4J96PvJ8HCi0WvbK1VnLDA
+[2022-12-05 21:11:40] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 21:11:56] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 21:11:56] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 21:11:56] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 21:11:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:11:56] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@1199e3fb
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@1199e3fb
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:12:05] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTM2MjUsImlhdCI6MTY3MDI5MjcyNX0.GJDbsKtPgygl6t0lDDwREkhqTXVF5Iq3Dx1uVuDHXt8
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@530d71fb
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@530d71fb
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:12:11] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTM2MzEsImlhdCI6MTY3MDI5MjczMX0.nyANWy8-hVZpiI94Lg-8q6_2pcNakFGQQINgwopOuk4
+[2022-12-05 21:12:30] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:12:30] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 21:12:30] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5b773f5c
+[2022-12-05 21:12:30] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 21:12:30] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:18:03] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:18:03] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 21:18:03] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@351570a2
+[2022-12-05 21:18:03] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 21:18:03] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 21:18:47] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 21:18:47] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 21:18:47] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2ef9c6ed
+[2022-12-05 21:18:47] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 21:18:47] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5a1fc2d0
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5a1fc2d0
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:01:52] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTY2MTIsImlhdCI6MTY3MDI5NTcxMn0.rUQX0IdMs025AHfb7TI0vESFbHP6qRc7GRPD-d2HowU
+[2022-12-05 22:08:38] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:08:47] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:08:47] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:08:47] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:08:47] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:08:47] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 22:08:49] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:08:49] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:08:49] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:08:49] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:08:49] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5aace940
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5aace940
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:08:56] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTcwMzYsImlhdCI6MTY3MDI5NjEzNn0.bftZxff5iCmAXQW_1Pi-6kzdwMvTxfso9uRfyjG_Ccc
+[2022-12-05 22:09:20] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:09:20] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:09:20] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@fefd1de
+[2022-12-05 22:09:20] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:09:20] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:09:32] [ ERROR] [OdontologoServiceImpl:41] No se encontro el odontologo con id: 6
+[2022-12-05 22:11:23] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:11:48] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:11:48] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:11:48] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:11:48] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:11:48] [ ERROR] [OdontologoServiceImpl:47] Error en el login: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3ccb7093
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3ccb7093
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:11:52] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTcyMTIsImlhdCI6MTY3MDI5NjMxMn0.0gzIZcIBeUS4VMcvK6jgXmcRJL1kBrycqn0vLVUVVcw
+[2022-12-05 22:12:02] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:12:02] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:12:02] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4fe27960
+[2022-12-05 22:12:02] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:12:02] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:12:18] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:12:18] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:12:18] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6597dc99
+[2022-12-05 22:12:18] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:12:18] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:12:26] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:12:26] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:12:26] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@567db6f4
+[2022-12-05 22:12:26] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:12:26] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:12:59] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3696612d
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3696612d
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:13:14] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTcyOTQsImlhdCI6MTY3MDI5NjM5NH0.d0A1Hx4kVBk9B-M1SeWKR_JEH3RX3YFBp-6pYJ7tqCE
+[2022-12-05 22:13:27] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:13:27] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:13:27] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@23e164da
+[2022-12-05 22:13:27] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:13:27] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:16:30] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@51115285
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@51115285
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:16:41] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTc1MDEsImlhdCI6MTY3MDI5NjYwMX0.Ma5Zjj_LRgKg1yBfFJRXULtp4dzJG74UEd_XjCNePWM
+[2022-12-05 22:16:58] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:16:58] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:16:58] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@1ff12858
+[2022-12-05 22:16:58] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:16:58] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:17:27] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:17:27] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:17:27] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@48a3fbac
+[2022-12-05 22:17:27] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:17:27] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:17:35] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:17:35] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:17:35] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3b2adf94
+[2022-12-05 22:17:35] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:17:35] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:17:53] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:17:53] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:17:53] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@1f2a63f5
+[2022-12-05 22:17:53] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:17:53] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@766aa67b
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@766aa67b
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:18:20] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTc2MDAsImlhdCI6MTY3MDI5NjcwMH0.zzRXJelZQmctwFytYmWHS4XIL3YREJheyDW-OLQqOVA
+[2022-12-05 22:22:01] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3a609c93
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3a609c93
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:22:10] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTc4MzAsImlhdCI6MTY3MDI5NjkzMH0.YyDnzQ_ao9uapybY_BtlcUSXdIUlcgFyepqzzSRVMus
+[2022-12-05 22:26:49] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:26:58] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:26:58] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:26:58] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:26:58] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@72fd410b
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@72fd410b
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:26:59] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTgxMTksImlhdCI6MTY3MDI5NzIxOX0.JPEQCZDE3aRc2FCNgU9zOybD9DXTc2R4NGebFxV1Di0
+[2022-12-05 22:27:26] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2dc48eca
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@2dc48eca
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:27:32] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTgxNTIsImlhdCI6MTY3MDI5NzI1Mn0.l2TmXyWiTX2ZDDxEG_lwrXaeKMNYFBV8ERNVRgHPCH0
+[2022-12-05 22:27:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:27:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-05 22:27:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@a393eda
+[2022-12-05 22:27:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-05 22:27:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:34:53] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@112f808c
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@112f808c
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:35:33] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTg2MzMsImlhdCI6MTY3MDI5NzczM30.KjRJOuswRzssnDrBouck5v2x5IqcdWQA-XHJ7oGG4c0
+[2022-12-05 22:45:34] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@148c4c96
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@148c4c96
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:45:37] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTkyMzcsImlhdCI6MTY3MDI5ODMzN30.8Koz3bG1qRof2z4wm7W_nUvaMf1MsHxpOOegjJz2vzI
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@56dfa1c8
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5c044a9
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:45:38] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@24d7d0c6
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@6e196f94
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:15] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@523e1ce2
+[2022-12-05 22:46:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:48] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:48] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:48] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@4f715fa
+[2022-12-05 22:46:48] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:48] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:54] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:54] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:54] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5270fa66
+[2022-12-05 22:46:54] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:54] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:56] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:56] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:56] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@514d28c6
+[2022-12-05 22:46:56] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:56] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:46:57] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:46:57] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:46:57] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@42d579d9
+[2022-12-05 22:46:57] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:46:57] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:27] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-05 22:47:36] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:36] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:36] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@68618f66
+[2022-12-05 22:47:36] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:36] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:36] [ ERROR] [OdontologoServiceImpl:41] No se encontro el odontologo con id: 1
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:39] Usuario: admin@email.com
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3ffe0de9
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3ffe0de9
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:40] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTkzNjAsImlhdCI6MTY3MDI5ODQ2MH0.bfDXt59QFMCKabRWK4fil0ifczvqpof5j4uHBrOzhEI
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@e8f9e83
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5a9adeae
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:41] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-05 22:47:47] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-05 22:47:47] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: admin@email.com
+[2022-12-05 22:47:47] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3edbeade
+[2022-12-05 22:47:47] [ INFO ] [OdontologoServiceImpl:32] Usuario: admin@email.com
+[2022-12-05 22:47:47] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234

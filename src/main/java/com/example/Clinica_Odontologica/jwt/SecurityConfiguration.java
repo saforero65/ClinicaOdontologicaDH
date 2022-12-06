@@ -3,6 +3,7 @@ package com.example.Clinica_Odontologica.jwt;
 import com.example.Clinica_Odontologica.jwt.JwtRequestFilter;
 import com.example.Clinica_Odontologica.model.AppUserRoles;
 import com.example.Clinica_Odontologica.services.impl.UserService;
+import org.apache.catalina.filters.CorsFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +19,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+
+import java.util.Arrays;
 
 @Configuration
 @EnableWebSecurity
@@ -38,8 +45,10 @@ protected void configure(HttpSecurity http) throws Exception {
             .authorizeRequests().antMatchers("/authenticate").permitAll()
             .antMatchers("/user/register").permitAll()
             .anyRequest().authenticated()
-            .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+            .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+            .and().cors();
     http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+
 }
     @Override
     @Bean
@@ -50,5 +59,9 @@ protected void configure(HttpSecurity http) throws Exception {
     public PasswordEncoder passwordEncoder() {
         return NoOpPasswordEncoder.getInstance();
     }
+
+
+
+
 
 }

@@ -20,9 +20,8 @@ public class TurnoController {
 
     @PostMapping("/crearTurno")
     public ResponseEntity<Turno> crearTurno(@RequestBody Turno turno) throws ResourceNotFoundException {
-        turnoService.crearTurno(turno);
+        Turno turnoResponse=turnoService.crearTurno(turno);
 
-
-        return ResponseEntity.ok().body(turno);
+        return ResponseEntity.ok().body(turnoResponse);
     }
 }

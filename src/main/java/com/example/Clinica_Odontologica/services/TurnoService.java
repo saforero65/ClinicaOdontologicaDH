@@ -5,5 +5,5 @@ import com.example.Clinica_Odontologica.model.Turno;
 
 public interface TurnoService {
 
-    void crearTurno(Turno turno) throws ResourceNotFoundException;
+    Turno crearTurno(Turno turno) throws ResourceNotFoundException;
 }

@@ -26,7 +26,7 @@ private TurnoRepository turnoRepository;
 
     final static Logger LOGGER = Logger.getLogger(TurnoServiceImpl.class);
     @Override
-    public void crearTurno(Turno turno) throws ResourceNotFoundException {
+    public Turno crearTurno(Turno turno) throws ResourceNotFoundException {
         Turno turno1 = new Turno();
         turno1.setFecha(turno.getFecha());
         turno1.setHora(turno.getHora());
@@ -38,6 +38,7 @@ private TurnoRepository turnoRepository;
             turno1.setOdontologo(odontologo);
             turno1.setPaciente(paciente);
             turnoRepository.save(turno1);
+            return turno1;
         }else {
             throw new ResourceNotFoundException("No se pudo crear el turno");
         }

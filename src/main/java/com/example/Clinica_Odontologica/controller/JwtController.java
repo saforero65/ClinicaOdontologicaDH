@@ -54,7 +54,7 @@ public class JwtController {
         final String jwt = jwtUtil.generateToken(userDetails);
         LOGGER.info("Token generado: " + jwt);
         //RESPONSE user and jwt
-        return ResponseEntity.status(200).body(new AuthenticationResponse(jwt) );
+        return ResponseEntity.status(200).body(new AuthenticationResponse(jwt,usuario.getEmail()) );
 
 
 

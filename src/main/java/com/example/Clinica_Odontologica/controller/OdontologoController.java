@@ -28,13 +28,26 @@ public class OdontologoController {
         return ResponseEntity.ok(odontologoDto);
     }
     @PostMapping("/guardar")
-    public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo){
-
+    public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo) throws ResourceNotFoundException {
         odontologoService.crearOdontologo(odontologo);
         return ResponseEntity.ok(odontologo);
     }
-
-
-
-
+    @GetMapping("/buscarTodos")
+    public ResponseEntity<Iterable<Odontologo>> buscarTodosOdontologos() throws ResourceNotFoundException {
+        return ResponseEntity.ok(odontologoService.buscarTodosOdontologos());
+    }
+    @DeleteMapping("/eliminar/{id}")
+    public ResponseEntity<Odontologo> eliminarOdontologo(@PathVariable("id") Long id) throws ResourceNotFoundException {
+        Odontologo odontologo = odontologoService.buscarOdontologo(id);
+        odontologoService.eliminarOdontologo(id);
+        return ResponseEntity.ok(odontologo);
+    }
+    @PutMapping("/actualizar/{id}")
+    public ResponseEntity<Odontologo> actualizarOdontologo(@PathVariable("id") Long id, @RequestBody Odontologo odontologo) throws ResourceNotFoundException {
+        Odontologo odontologo1 = odontologoService.buscarOdontologo(id);
+        odontologo1.setNombre(odontologo.getNombre());
+        odontologo1.setApellido(odontologo.getApellido());
+        odontologoService.actualizarOdontologo(odontologo1);
+        return ResponseEntity.ok(odontologo1);
+    }
 }

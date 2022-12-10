@@ -1,0 +1,532 @@
+{
+	"info": {
+		"_postman_id": "b71931d4-691d-4a30-9344-fd4df1c024af",
+		"name": "ClinicaOdontologica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16858046"
+	},
+	"item": [
+		{
+			"name": "Odontolog@",
+			"item": [
+				{
+					"name": "Buscar Odontolog@",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAzNzU0ODksImlhdCI6MTY3MDM3NDU4OX0.5JvKrxZ2RAVq6zbwAxkntERxsofRRKgQW--QcsyV5HQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/odontologo/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Odontolog@",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAzNzMxNTAsImlhdCI6MTY3MDM3MjI1MH0.hDOBxZ5yqlk3SMnSIwUSiR1Mi4idVNsIrUiCB3RczIo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\":\"Ale\",\n    \"apellido\":\"nose\",\n    \"matricula\":\"123123123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/odontologo/guardar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"guardar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Todos Odontolog@s",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDIxMjIsImlhdCI6MTY3MDU0MTIyMn0.fz0fK9FW2MtDZXIG3Keyzuhh-pI31mYINPMZf7YP1A4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologo/buscarTodos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"buscarTodos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Odontolo@",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDIxMjIsImlhdCI6MTY3MDU0MTIyMn0.fz0fK9FW2MtDZXIG3Keyzuhh-pI31mYINPMZf7YP1A4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\":\"Alejandra\",\n    \"apellido\":\"Mendez\",\n    \"matricula\":\"ABC123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/odontologo/actualizar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"actualizar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Odontolog@",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDEwNTEsImlhdCI6MTY3MDU0MDE1MX0.BPXLk7gqNS83FsD2vJx9tL4rnSsv7_3JORxC1SzFqAg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologo/eliminar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"eliminar",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Paciente",
+			"item": [
+				{
+					"name": "Obtener Paciente",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTc1MDEsImlhdCI6MTY3MDI5NjYwMX0.Ma5Zjj_LRgKg1yBfFJRXULtp4dzJG74UEd_XjCNePWM",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/paciente/buscar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"paciente",
+								"buscar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Paciente",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE2NzAyOTkyMzcsImlhdCI6MTY3MDI5ODMzN30.8Koz3bG1qRof2z4wm7W_nUvaMf1MsHxpOOegjJz2vzI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"nombre\":\"Valeria\",\n \"apellido\":\"Forero\",\n \"dni\":11111,\n \"domicilio\":{\n     \"calle\":\"calle2\",\n     \"numero\":\"numero2\",\n     \"localidad\":\"localidad2\",\n     \"provincia\":\"bogota2\",\n     \"pais\":\"pais2\"     \n },\n \"fechaAlta\":\"2022-01-08\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/paciente/guardar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"paciente",
+								"guardar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Paciente",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDIxMjIsImlhdCI6MTY3MDU0MTIyMn0.fz0fK9FW2MtDZXIG3Keyzuhh-pI31mYINPMZf7YP1A4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\":\"Alejandra\",\n    \"apellido\":\"Mendez\",\n    \"matricula\":\"ABC123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/odontologo/actualizar/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"actualizar",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Paciente",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDEwNTEsImlhdCI6MTY3MDU0MDE1MX0.BPXLk7gqNS83FsD2vJx9tL4rnSsv7_3JORxC1SzFqAg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologo/eliminar/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"eliminar",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Todos los Pacientes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA1NDIxMjIsImlhdCI6MTY3MDU0MTIyMn0.fz0fK9FW2MtDZXIG3Keyzuhh-pI31mYINPMZf7YP1A4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologo/buscarTodos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologo",
+								"buscarTodos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Turno",
+			"item": [
+				{
+					"name": "Crear Turno",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA2Mzg0NjksImlhdCI6MTY3MDYzNzU2OX0.zAesZTJQCRLiJZXY7-kXtSLDwGQn2YouvU308652xuA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fecha\":\"2022-01-08\",\n    \"hora\":\"16:58:40\",\n     \"odontologo\": {\n        \"id\": 1\n    },\n    \"paciente\": {\n        \"id\": 1\n    }\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/turno/crearTurno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turno",
+								"crearTurno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Todos los Turnos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA2Mzg2NDgsImlhdCI6MTY3MDYzNzc0OH0.eQXW9p7UE5zs2JBfZS4AcPDcp0WqhVFlWeobELzLlOk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fecha\":\"2022-01-08\",\n    \"hora\":\"16:58:40.62\",\n     \"odontologo\": {\n        \"id\": 1\n    },\n    \"paciente\": {\n        \"id\": 1\n    }\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/turno/buscarTodosTurnos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turno",
+								"buscarTodosTurnos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Turno por ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA2Mzg2NDgsImlhdCI6MTY3MDYzNzc0OH0.eQXW9p7UE5zs2JBfZS4AcPDcp0WqhVFlWeobELzLlOk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"fecha\":\"2022-01-08\",\n    \"hora\":\"16:58:40.62\",\n     \"odontologo\": {\n        \"id\": 1\n    },\n    \"paciente\": {\n        \"id\": 1\n    }\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/turno/buscarTurno/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turno",
+								"buscarTurno",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Login Auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"email@email.com\",\n    \"password\":\"1234\"\n\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\":\"user\",\n    \"apellido\":\"god\",\n    \"email\":\"email@email.com\",\n    \"password\":\"1234\",\n    \"role\":\"USER\"\n\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

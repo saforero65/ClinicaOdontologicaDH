@@ -12,6 +12,8 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 
 @Service
 public class TurnoServiceImpl implements TurnoService {
@@ -44,5 +46,14 @@ private TurnoRepository turnoRepository;
         }
 
 
+    }
+
+    @Override
+    public Turno buscarTurno(Long id) throws ResourceNotFoundException {
+        return turnoRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Turno no encontrado"));
+    }
+    @Override
+    public List<Turno> buscarTodosTurnos() throws ResourceNotFoundException {
+        return turnoRepository.findAll();
     }
 }

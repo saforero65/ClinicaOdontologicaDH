@@ -2229,3 +2229,106 @@
 [2022-12-08 21:09:05] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
 [2022-12-08 21:09:05] [ INFO ] [TurnoServiceImpl:33] id odontologo: 1
 [2022-12-08 21:09:05] [ INFO ] [TurnoServiceImpl:34] id paciente: 1
+[2022-12-09 20:57:45] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@546276a1
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@546276a1
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 20:59:29] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA2Mzg0NjksImlhdCI6MTY3MDYzNzU2OX0.zAesZTJQCRLiJZXY7-kXtSLDwGQn2YouvU308652xuA
+[2022-12-09 20:59:40] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 20:59:40] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 20:59:40] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@763e7314
+[2022-12-09 20:59:40] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 20:59:40] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 20:59:45] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 20:59:45] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 20:59:45] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@b4c7a40
+[2022-12-09 20:59:45] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 20:59:45] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 20:59:57] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 20:59:57] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 20:59:57] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@fba891a
+[2022-12-09 20:59:57] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 20:59:57] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 20:59:57] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 20:59:57] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:00:00] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:00:00] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:00:00] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@3f81b5dc
+[2022-12-09 21:00:00] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:00:00] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:00:00] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 21:00:00] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:00:01] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:00:01] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:00:01] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@261ab463
+[2022-12-09 21:00:01] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:00:01] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:00:01] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 21:00:01] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:00:46] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-09 21:01:18] [ INFO ] [ClinicaOdontologicaApplication:19] Aplicacion iniciada
+[2022-12-09 21:01:42] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:01:42] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:01:42] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@1101d5d8
+[2022-12-09 21:01:42] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:01:42] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:01:45] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:01:45] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:01:45] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@185dae6a
+[2022-12-09 21:01:45] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:01:45] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:01:48] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:01:48] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:01:48] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@308c07ec
+[2022-12-09 21:01:48] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:01:48] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:01:48] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 21:01:48] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:01:50] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:01:50] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:01:50] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@679aea39
+[2022-12-09 21:01:50] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:01:50] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:01:50] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 21:01:50] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:01:51] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:01:51] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:01:51] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@26362846
+[2022-12-09 21:01:51] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:01:51] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:01:51] [ INFO ] [TurnoServiceImpl:35] id odontologo: 1
+[2022-12-09 21:01:51] [ INFO ] [TurnoServiceImpl:36] id paciente: 1
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:38] Iniciando autenticación
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:39] Usuario: email@email.com
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:40] Contraseña: 1234
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@7e0d203d
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@7e0d203d
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:02:28] [ INFO ] [OdontologoServiceImpl:55] Token generado: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBlbWFpbC5jb20iLCJleHAiOjE2NzA2Mzg2NDgsImlhdCI6MTY3MDYzNzc0OH0.eQXW9p7UE5zs2JBfZS4AcPDcp0WqhVFlWeobELzLlOk
+[2022-12-09 21:02:39] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:02:39] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:02:39] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@7d1ba743
+[2022-12-09 21:02:39] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:02:39] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
+[2022-12-09 21:03:08] [ INFO ] [OdontologoServiceImpl:26] Iniciando loadUserByUsername
+[2022-12-09 21:03:08] [ INFO ] [OdontologoServiceImpl:28] Usuario encontrado: email@email.com
+[2022-12-09 21:03:08] [ INFO ] [OdontologoServiceImpl:29] com.example.Clinica_Odontologica.model.Usuario@5e6ddfd0
+[2022-12-09 21:03:08] [ INFO ] [OdontologoServiceImpl:32] Usuario: email@email.com
+[2022-12-09 21:03:08] [ INFO ] [OdontologoServiceImpl:33] Contraseña: 1234
